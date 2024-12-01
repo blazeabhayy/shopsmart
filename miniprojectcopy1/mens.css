@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #fff8e5;
+    color: #333;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 50px;
+}
+.logo-container{
+    margin-right: 20px;
+}
+
+.nav-links {
+    font-family: 'Rubik Wet Paint', cursive;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.nav-links li a {
+    font-family: 'Rubik Wet Paint', cursive;
+    
+    text-decoration: none;
+    color: #9A7E6F;
+
+    font-weight: 300;
+}
+.nav-links li a:hover {
+    color: #ff6600;
+}
+
+.search-auth-container {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+.search-box-container{
+    display: flex;
+}
+.search-box-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 280px;
+    height: 20px;
+    margin-right: 20px;
+}
+.cart a img{
+    width: 20px;
+}
+.card1 , .hover{
+    background-color: #fff;
+    width: 200px;
+    height: 320px;
+    margin: 45px 60px;
+    transition: 1s;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.hover:hover{
+    box-shadow: #dc7235f3 0px 22px 70px 4px;
+}
+.productimg{
+    width: 95%;
+    margin: 4px 4px;
+}
+p{
+    font-size: 14px;
+}
+h3 , h4{
+    color: #9A7E6F;
+    font-weight: bold;
+}
+.productdetails{
+    margin-left: 10px;
+}
+.btn{
+    margin-top: 8px;
+}
+:root {
+    --first-color: hsl(21, 18%, 52%);
+    
+  }
+  
+
+.button {
+    position: relative;
+    background-color: var(--first-color);
+    color:#f1edea;
+    padding: .3rem 1.3rem;
+    border-radius: 3rem;
+    transition: .4s;
+    margin-left: 4px;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .button::after {
+    content: '';
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    margin: 0 auto;
+    border-radius: 3rem;
+    filter: blur(20px);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .4s;
+  }
+  
+  .btntext {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .button img {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    pointer-events: none;
+    transition: .6s;
+    opacity: 0;
+  }
+  .img1 {
+    width: 28px;
+    transform: translate(-55px, -16px) rotate(55deg);
+    filter: blur(.5px);
+  }
+  
+  .img2 {
+    width: 38px;
+    transform: translate(7px, -14px) rotate(80deg);
+  }
+  
+  .img3 {
+    width: 36px;
+    transform: translate(50px, -4px) rotate(-45deg);
+    filter: blur(.9px);
+  }
+  
+  .img4 {
+    width: 30px;
+    transform: translate(-5px, 15px) rotate(40deg);
+  }
+  .button:hover::after {
+    opacity: 1;
+  }
+  .button:hover {
+    transform: scale(1.3);
+  }
+  .button:hover img {
+    opacity: 1;
+  }
+  
+  .button:hover .img1 {
+    transform: translate(-38px, -10px) scale(1.2);
+  }
+  
+  .button:hover .img2 {
+    transform: translate(7px, -32px) scale(1.1);
+  }
+  
+  .button:hover .img3{
+    transform: translate(50px, -20px) scale(1.1);
+  }
+  
+  .button:hover .img4 {
+    transform: translate(-14px, 20px) scale(1.1);
+  }
+  

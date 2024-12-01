@@ -1,0 +1,46 @@
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.left img{
+    width: 80px;
+    height: 80px;
+}
+.left{
+    width: 100px;
+    height: 100px;
+
+
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+ul{
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: "Rubik Wet Paint", serif;
+    font-size: large;
+    font-style: normal;
+    
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width:250px ;
+    height: 30px;
+    position: relative;
+    top: 28px;
+    border-radius: 5px;
+    
+}
